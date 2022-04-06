@@ -1,6 +1,6 @@
 # Social Media Analysis
 
-Python code for capturing data from social media
+Python code for capturing and analyzing data from social media
 
 ⚠️ **Attention! This repository (all file history and commits) will be made public after May!** ⚠️
 
