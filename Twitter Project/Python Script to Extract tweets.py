@@ -1,7 +1,21 @@
 # Python Script to Extract tweets of a
 # particular Hashtag using Tweepy and Pandas
+#%% [markdown]
+# # Python script to scrap tweets from twitter using tweepy.
+#
+#
+# Once the program (Python Script to Extract tweets) is excecuted , the prompt will ask to enter the keyword, make sure you have entered the keyword with 'http' with a space between to extract all the tweets having a link in the tweet.
+# Next prompt will ask you to give the time fram of the tweets, like from when to when you need to extract the tweets shared.
+# The data scrapped is saved into a file (filename = 'scraped_tweets_1.csv')
+# Here i used 'US funded biolabs' as keyord to extract the misinformation
+#
+# Twitter api key has been removed of privacy 
+#
+#
+# Author : Adhithya Kiran
+# 
 #%%
-# import modules
+
 import pandas as pd
 import tweepy
  
@@ -87,7 +101,7 @@ def scrape(words, date_since, numtweet):
                 # Function call to print tweet data on screen
                 printtweetdata(i, ith_tweet)
                 i = i+1
-        filename = 'scraped_tweets.csv'
+        filename = 'scraped_tweets_1.csv'
  
         # we will save our database as a CSV file.
         db.to_csv(filename)
@@ -96,10 +110,10 @@ if __name__ == '__main__':
  
         # Enter your own credentials obtained
         # from your developer account
-        consumer_key = "xSh8QKijNpCVCAz8SfC0vAax3"
-        consumer_secret = "eAnkQQhCbm7LbGZzJZ4bjykNdpQ31ygvzpML9fquDE490avfhA"
-        access_key = "1505336309065424908-CJx9O2IEukeycT3Nm2cet1eY89R6tj"
-        access_secret = "wnoq7Eh81nDVfeadY0zzfAGrJ0dTOn1rcD2vUbTJlLPb8"
+        consumer_key = ""
+        consumer_secret = ""
+        access_key = ""
+        access_secret = ""
  
  
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
