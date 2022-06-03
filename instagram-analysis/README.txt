@@ -1,0 +1,3 @@
+Code by Chiemeziem Oguayo.
+
+This code scrapes Instagram for posts containing a specific hashtag and outputs a JSON document containing the info about the posts it scraped. Ensure that the necessary libraries are installed and updated. And wherever asked, input the necessary text. Be mindful when running this code, too many requests can cause Instagram to block your account. So it is advised to use a dummy IG account.
