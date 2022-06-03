@@ -1,0 +1,9 @@
+requests
+json
+pandas
+re
+yarl
+numpy
+validators
+faker
+graphistry
