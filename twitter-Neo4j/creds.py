@@ -1,0 +1,5 @@
+consumer_api_key = ""
+consumer_api_key_secret = ""
+bearer_token = ""
+authentication_access_token = ""
+authentication_access_token_secret  = ""
